@@ -24,7 +24,7 @@
                 <td><?php echo $Cursos['area']; ?></td>
                 <td><a href="#" onclick="areaVisualiza('./elements/alt_cursos.php?Curso=<?php echo $Cursos['id']; ?>')" class="btn btn-warning">Alterar</a>
 
-                    <a href="#" onclick="areaVisualiza('./elements/del_cursos.php?Curso=<?php echo $Cursos['id']; ?>')" class="btn btn-danger">Excluir</a>
+                    <a href="#" onclick="areaVisualiza('./fnc/del_cursos.php?Curso=<?php echo $Cursos['id']; ?>')" class="btn btn-danger">Excluir</a>
                 </td>
             </tr>
         <?php } ?>

@@ -23,7 +23,7 @@ $ProfessoresSQL = $connection->query("SELECT cp.id, p.nome AS Professor, c.descr
             <td><?php echo $Professores['Professor']; ?></td>
             <td><?php echo $Professores['Curso']; ?></td>
             <td><a href="#" onclick="areaVisualiza('./elements/alt_vinculo.php?Vinculo=<?php echo $Professores['id']; ?>')" class="btn btn-warning">Alterar</a>
-                <a href="#" onclick="areaVisualiza('./elements/del_vinculo.php?Vinculo=<?php echo $Professores['id']; ?>')" class="btn btn-danger">Excluir</a>
+                <a href="#" onclick="areaVisualiza('./fnc/del_vinculo.php?Vinculo=<?php echo $Professores['id']; ?>')" class="btn btn-danger">Excluir</a>
             </td>
         </tr>
     <?php } ?>

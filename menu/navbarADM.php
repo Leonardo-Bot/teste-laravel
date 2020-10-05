@@ -28,7 +28,7 @@
                 <a class="nav-link" href="#" onclick="areaVisualiza('./elements/table_professores.php')">Professores</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" onclick="areaVisualiza('./elements/vinculo_professor.php')">Cursos/Professores</a>
+                <a class="nav-link" href="#" onclick="areaVisualiza('./elements/table_vinculos.php')">Cursos/Professores</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="./sair.php">Sair</a>

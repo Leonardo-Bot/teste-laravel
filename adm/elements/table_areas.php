@@ -22,7 +22,7 @@
             <td><?php echo $Areas['descricao']; ?></td>
             <td><a href="#" onclick="areaVisualiza('./elements/alt_areas.php?Area=<?php echo $Areas['id']; ?>')" class="btn btn-warning">Alterar</a>
 
-                <a href="#" onclick="areaVisualiza('./elements/del_areas.php?Area=<?php echo $Areas['id']; ?>')" class="btn btn-danger">Excluir</a>
+                <a href="#" onclick="areaVisualiza('./fnc/del_areas.php?Area=<?php echo $Areas['id']; ?>')" class="btn btn-danger">Excluir</a>
             </td>
         </tr>
         <?php } ?>

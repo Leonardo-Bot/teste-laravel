@@ -21,7 +21,7 @@ $ProfessoresSQL = $connection->query("SELECT * FROM professores");
             <td><?php echo $Professores['nome']; ?></td>
             <td><?php echo $Professores['email']; ?></td>
             <td><a href="#" onclick="areaVisualiza('./elements/alt_profesores.php?Professor=<?php echo $Professores['id']; ?>')" class="btn btn-warning">Alterar</a>
-                <a href="#" onclick="areaVisualiza('./elements/del_profesores.php?Professor=<?php echo $Professores['id']; ?>')" class="btn btn-danger">Excluir</a>
+                <a href="#" onclick="areaVisualiza('./fnc/del_profesores.php?Professor=<?php echo $Professores['id']; ?>')" class="btn btn-danger">Excluir</a>
             </td>
         </tr>
     <?php } ?>
